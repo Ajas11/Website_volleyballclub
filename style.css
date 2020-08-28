@@ -319,9 +319,19 @@ footer a:hover {
     flex-direction: column;
 }
 }
-/* responsive for -- small tab devices -- */
-@media screen and (max-width: 800px) {
-    footer {
-        flex-direction: column;
+/* responsive for -- small mobile devices -- */
+@media screen and (max-width: 410px) {
+    .menu1 ul li:nth-child(3) {
+      display: none;
+    }
+    .menu1 ul li:nth-child(4) {
+      margin-left: 25px;
+    }
+    footer a {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .right p {
+        font-size: 10px;
     }
 }
