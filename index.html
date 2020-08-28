@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <title>Block Out OK</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+            <link rel="shortcut icon" href="./imgs/blockoutlogo.png">
+            <link href="https://fonts.googleapis.com/css2?family=Rambla:wght@700&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+            <link href="style.css" rel="stylesheet" type="text/css" />
+            <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <script src="http://maps.googleapis.com/maps/api/js"></script>
+             
+    </head>
+
+    <body>
+       
+        <header>
+            <div class="frame">
+                <div class="logo">
+                    <a href="index.html"><img src="imgs/blockoutlogo.png"></a>
+                </div>
+                <nav class="menu2">
+                    <a href="#"><img id="menu2" src="imgs/menu2-4.png"></a>
+                </nav> 
+                <nav class="menu1">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#no1">O nama</a></li>
+                            <li><a href="#no2">Team</a></li>
+                            <li><a href="kontakt.html">Contact</a></li>
+                            <li><a href="#no3">Mapa</a></li>
+                        </ul>
+                </nav>
+                <!-- mobile menu
+                <a href="#home" class="active">Logu</a>
+  <div id="myLinks">
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+-->
+            </div>
+        </header>
+        <div id="dropdown">
+            <a href="#">Home</a> 
+            <a href="#no1">O nama</a>
+            <a href="#no2">Naš Team</a>
+            <a href="kontakt.html">Contact</a>
+            <a href="#no3">Mapa</a>
+            <a href="www.facebook.com">facebook</a>
+            <a href="www.instagram.com">Instagram</a>
+            <a href="www.youtube.com">Youtube</a>
+          </div>
+        <div class=" prva">
+            <img src="imgs/prva.png" alt="foto ilustracija klub">
+        </div>
+        
+        <main>
+         
+          <section id="no1" class="no1 cont">
+            <div class="titel">
+                <h2>O nama</h2>
+                
+          </div>
+          <div class="row">
+            <div class="column">
+                <h3></h3><br>
+                <p> Odbojkaška akademija BLOCK OUT Zenica djeluje od 2017. godine i danas okuplja preko 80 djevojčica, djevojaka, dječaka i momaka mladih odbojkašica i odbojkaša iz Zenice. </p><br>
+                <p>Ambicije BLOCK OUT Zenica su usmjerene na formiranje široke i kvalitetne baze, iz koje će se crpiti kadar za pionirsku, kadetsku, juniorsku i seniorsku selekciju, i njihovo uključivanje u ligaška takmičenja u zemlji, te turnire i druga takmičenja u regionu i šire. </p> <br>
+
+            </div>
+            <div class="column">
+                <img src="imgs/ilu3.jpg">
+
+            </div>
+
+        </div>
+          </section>
+          <div class=" prva">
+            <img src="imgs/druga.jpg" alt="foto ilustracija odbojkaski klub">
+        </div>
+          <section id="no2" class="no2 cont">
+            <div class="titel">
+                <h2> Naš Team</h2>
+            </div>
+
+          </section>
+          <section id="no3" class="no3 cont">
+            <div class="titel">
+                <h2> Klub</h2><br>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <h3></h3><br>
+                    <img style=(margin:20px;) src="imgs/ilu5.jpg">
+                </div>
+                <div class="column"> 
+                   <br> 
+                   <h4> Omladinska akademija Block Out </h4><br>
+                   <p>Odbojkaška akademija BLOCK OUT Zenica prepoznatljivo je po radu sa mlađim kategorijama. U BLOCK OUT Zenica iz godine u godinu stasavaju mladi odbojkaši i odbojkašice koji imaju samo jednu želju. Da jednog dana zaigraju na evropskoj sceni!! </p> <br>
+                </div>
+
+          </section>
+          
+
+        </main>
+        <div class="subfooter">
+            <div class="centar">
+                <div class="left">
+                    <img src="imgs/blockoutlogo.png">
+
+                </div>
+                <div class="right">
+                    <p> Contact info:</p><br>
+                    <p>Ekonomska škola, Mejdandžik 2.</p>
+                    <p>72000 Zenica</p>
+                    <p>Bosna i Hercegovina</p>
+                    <p>E-mail: oablockout@gmail.com </p>
+                    <p>Tel: +387 61 708 407</p>
+                </div>
+
+            </div>
+
+        </div>
+        <footer>
+            <div class="social"><a href="https://www.facebook.com/oablockout/" title="Facebook">Facebook</a>
+                <a href="http://instagram.com" title="Instagram">Instagram</a>
+                <a href="https://www.youtube.com/channel/UCZXH49093skSDXsYYwr3h2A" title="Youtube" target="blank">Youtube</a>
+            </div>
+            <span id="dev">Developed: amprodukcija@gmail.com</span>
+                                   
+        </footer>
+    </body>
+</html>
+<script>
+    document.getElementById("menu2").onclick=function start() {
+        var m=document.getElementById("dropdown");
+        if (m.style.display==="block")
+          { m.style.display="none"}
+        else { m.style.display="block"}
+    }
+    var dd = document.getElementById("dropdown").onclick=function() {
+        this.style.display = "none";
+    }
+</script>
+<!--
+<script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+</script>
+        
+                <div class="onama cont" id="onama">
+                    <div class=" prva">
+                        <img src="imgs/prva.png" alt="foto ilustracija klub">
+                    </div>
+                    <div class="row">
+                        <h2>O nama</h2>
+                        <div class="column-50 left">
+                            <p>
+                                    Odbojkaška akademija BLOCK OUT Zenica djeluje od 2017. godine i danas okuplja preko 80 djevojčica, djevojaka, dječaka i momaka mladih odbojkašica i odbojkaša iz Zenice.
+                                    Ambicije BLOCK OUT Zenica su usmjerene na formiranje široke i kvalitetne baze, iz koje će se crpiti kadar za pionirsku, kadetsku, juniorsku i seniorsku selekciju, i njihovo uključivanje u ligaška takmičenja u zemlji, te turnire i druga takmičenja u regionu i šire.
+                                    Odbojkaški akademija BLOCK OUT Zenica prepoznatljivo je po radu sa mlađim kategorijama. U BLOCK OUT Zenica iz godine u godinu stasavaju mladi odbojkaši i odbojkašice koji imaju samo jednu želju. Da jednog dana zaigraju na evropskoj sceni!!
+                            </p>
+                        </div>
+                        <div class="column-50 right">
+                            <img src="images/ekipa.jpg">
+                        </div>
+                    </div>
+        
+                </div>
+                <div class="team cont" id="team">
+                    <div classs="row">
+                        <h2>Prvi Team</h2>
+                        <div>
+                            <div class="container">
+                                <img src="images/nezir dizdarevic.png" title="Nezir dizdarevic">
+                                <img src="images/muhamed limic.png" title="Muhamed Limic">
+                                <img src="images/Muhamed Dizdarevic.png" title="Muhamed Dizdarevic">
+                                <img src="images/Mirza Jaran.png" title="Mirza Jaran">
+                                <img src="images/Husein Smajlovic.png" title="Husein Smajlovic">
+                                <img src="images/Eldar Rebihic.png" title="Eldar Rebihic">
+                                <img src="Hasanica.png" title="TRENER: Haris Hasanica">
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+                <div class="contact cont" id="contact">
+                    <div class="row">
+                        
+                        <div class="column-50 left">
+                            <h3>Contact</h3><br>
+                            <h4>Odbojkaski klub BlOCK OUT Zenica</h4>
+                            <br><p>Ekonomska skola Zenica</p>
+                            <p>Mejdandzik 2. 72000 Zenica</p>
+                            <br><p>mail: oablockout@gmail.com</p>
+                            <p>Contact:  387 61 708 407</p>
+                            <br>
+                            <p>#Budi sa najboljima, uci od najboljih</p>
+                        </div>
+                        <div class="column-50 right" >
+                            <img id="ilu" src="images/ilu5.jpg" alt="ilustacija odbojka">
+                        </div>
+                    </div>        
+                </div>
+                <div class="mapa cont" id="mapa">
+                        <div class="contact-map" id="contact-map"></div>
+                </div>
+                        
+            <footer>
+                <div class="frame foot">
+                    <span id="cr"> Copyright </span>
+                    <span>Block Out</span>
+                    <a href="https://www.facebook.com/oablockout/" title="Facebook">Facebook</a>
+                    <a href="http://instagram.com" title="Instagram">Instagram</a>
+                    <a href="http://twitter.com" title="Twitter" target="blank">Twitter</a>
+                    <span id="des">amprodukcija@gmail.com</span>
+                            
+                 </div>
+                
+            </footer>
+            
+ 
+
+
+<script>
+    function initialize() {
+        var mapProp = {
+            center: new google.maps.LatLng(44.198188, 17.908769),
+            zoom: 15,
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            scrollwheel: false
+        };
+
+        var image = {
+            url: 'images/icon-map.png',
+            size: new google.maps.Size(64, 64)
+        };
+
+        var map = new google.maps.Map(document.getElementById("contact-map"), mapProp);
+
+        var marker = new google.maps.Marker({
+            map: map,
+            position: mapProp.center,
+            animation: google.maps.Animation.DROP,
+            title: "Odbojkaski klub Block Out, Mejdandzik 2. Zenica",
+            icon: image,
+            scrollwheel: mapProp.scrollwheel
+        });
+    }
+
+    google.maps.event.addDomListener(window, 'load', initialize);
+</script>

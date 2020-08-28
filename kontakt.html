@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontaktiraj BockOut</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rambla:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./imgs/blockoutlogo.png">
+    <style>
+        body{
+            width: 100vw;
+            height: 100vh;
+            margin:0; 
+            padding: 0;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(10, 27, 55);
+        }
+
+        #logo img{
+            width: 100px;
+            height: auto;
+            margin-left: 0px;
+        }
+
+        #heading{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 1em;
+            margin-top: 15px;
+            color: whitesmoke;
+            letter-spacing: 2px;
+        }
+#contact{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 80vw;
+    padding-top: 9vh;
+    font-family: 'Lato', sans-serif;
+}
+
+input{
+    background-color: rgba(196, 227, 255, 0.415);
+    margin: 5px;
+    border:rgba(101, 140, 175, 0.767);
+    border-radius: 10px;
+    height: 30px;
+    font-family: 'Lato', sans-serif;
+    padding-left: 15px;
+}
+
+input:placeholder-shown{
+    padding-left: 15px;
+    font-family: 'Rambla', sans-serif;
+    letter-spacing: 0.8px;
+    background-color:rgb(253, 173, 0);
+}
+
+textarea{
+    border:none;
+    border-radius: 10px;
+    background-color: rgba(196, 227, 255, 0.415);
+    margin: 5px;
+    height: 100px;
+    font-family: 'Rambla', sans-serif;
+    padding-left: 15px;
+}
+
+textarea:placeholder-shown{
+    padding-left: 15px;
+    padding-top: 10px;
+    font-family: 'Rambla', sans-serif;
+    letter-spacing: 0.8px;
+    background-color:rgb(253, 173, 0);
+}
+
+#submit{
+    width: 50% !important;
+    margin-top: 40px;
+    align-self: center;
+    background-color: rgb(253, 173, 0);
+    font-family: 'Rambla', sans-serif;
+    color: white;
+}
+
+@media only screen and (min-width: 800px){
+    #contact{
+        width: 30vw;
+    }
+}
+    </style>
+</head>
+<body>
+    <div id="logo"><a href="index.html"> <img src="./imgs/blockoutlogo.png"></a></div>
+    <span id="heading">BLOCK OUT</span>
+    <form id="contact" action="https://formspree.io/12345678" method="POST">
+            <input type="text" id="name-input" name="name" placeholder="Ime" required>
+            <input type="email" id="email-input" name="email" placeholder="E-mail" required>
+            <textarea id="message-input" name="message" rows="5" cols="5"  placeholder="Napišite poruku..."required></textarea>
+            <input type="submit" id="submit" name="submit" value="Pošalji">
+    </form>
+</body>
+</html>
