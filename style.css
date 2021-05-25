@@ -67,6 +67,7 @@
     display:none;
     height: 100%;
     float: right;
+    margin-left: 10px;
 }
 .menu2 img {
     height:40px;
